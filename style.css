@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+body {
+    font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
+    font-size: 14px;
+}
+
+.inner {
+    width: 86.48%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+/* header */
+header {
+    text-align: center;
+    padding: 40px 0;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+
+
+/* main */
+section {
+    margin-bottom: 100px;
+}
+
+.discussion h2 {
+    text-align: center;
+    position: relative;
+}
+
+.discussion h2::before {
+    content: "KUOMNが向き合うもの";
+    font-size: 14px;
+    bottom: 33px;
+    background-color: #72C9F3;
+    position: absolute;
+}
+
+.discussion h2::after {
+    content: "";
+    padding-bottom: 20px;
+    border-bottom: #000 1px solid;
+}
+
+
+
+
+
+
+
+
+
+
+/* footer */
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.summary {
+    display: flex;
+    padding: 20px 0;
+}
+
+small {
+    font-size: 12px;
+}
